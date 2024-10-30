@@ -72,7 +72,17 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import ubuntu from '/public/svg/skills/ubuntu.svg';
+import linux from '/public/svg/skills/linux.svg';
+import kubernetes from '/public/svg/skills/kubernetes.svg';
+import jenkins from '/public/svg/skills/jenkins.svg';
+import terraform from '/public/svg/skills/terraform.svg';
+import github from '/public/svg/skills/github.svg';
+import argocd from '/public/svg/skills/argocd.svg';
+import prometheus from '/public/svg/skills/prometheus.svg';
+import grafana from '/public/svg/skills/grafana.svg';
+import pagerduty from '/public/svg/skills/pagerduty.svg';
+import airflow from '/public/svg/skills/airflow.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -223,6 +233,28 @@ export const skillsImage = (skill) => {
       return unity;
     case 'wolframalpha':
       return wolframalpha;
+    case 'ubuntu':
+      return ubuntu;
+    case 'linux':
+      return linux;
+    case 'kubernetes':
+      return kubernetes;
+    case 'jenkins':
+      return jenkins;
+    case 'terraform':
+      return terraform;
+    case 'github':
+      return github;
+    case 'argocd':
+      return argocd;
+    case 'prometheus':
+      return prometheus;
+    case 'grafana':
+      return grafana;
+    case 'pagerduty':
+      return pagerduty;
+    case 'airflow':
+      return airflow;
     case 'canva':
       return canva;
     default:

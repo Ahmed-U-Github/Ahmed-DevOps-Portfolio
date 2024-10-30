@@ -1,24 +1,22 @@
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Typescript',
-  'React',
-  'Next JS',
-  'Tailwind',
-  'MongoDB',
   'MySQL',
   'PostgreSQL',
   'Git',
   'AWS',
-  'Bootstrap',
   'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
-  'MaterialUI',
   'Nginx',
-  'Strapi'
+  'Azure',
+  'Ubuntu',
+  'Linux',
+  'Kubernetes',
+  'Terraform',
+  'Github',
+  'ArgoCD',
+  'Prometheus',
+  'Grafana',
+  'PagerDuty',
+  'Airflow',
+  'Jenkins'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -79,6 +77,16 @@ export const skillsData = [
   Figma
   Canva
   Ubuntu
+  Linux
+  Kubernetes
+  Jenkins
+  Terraform
+  Github
+  ArgoCD
+  Prometheus
+  Grafana
+  PagerDuty
+  Airflow
   Bootstrap
   MongoDB
   Tailwind
