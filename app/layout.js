@@ -10,9 +10,9 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Abu Said - Software Developer",
+  title: "Portfolio of Ahmed U - DevOps Engineer",
   description:
-    "This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "My name is AHMED U, a dedicated and results-oriented DevOps Engineer with 4.5 years of experience. I thrive in dynamic environments, always eager to learn and tackle challenges. I have a strong foundation in infrastructure automation, containerization, and cloud services. Skilled in AWS, Kubernetes, Terraform, and Jenkins, I am passionate about building efficient, scalable solutions. I aim to bridge development and operations with streamlined CI/CD pipelines and effective monitoring. I am open to job opportunities that align with my skills and enthusiasm for continuous improvement in the DevOps space.",
 };
 
 export default function RootLayout({ children }) {
